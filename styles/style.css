@@ -60,3 +60,40 @@ body {
   border: none;
   padding: 17px 34px;
 }
+/* Banner section styles ended */
+
+/*Pillars of bangladesh section styles started  */
+.bd-pillars {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.bd-pillars-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(14, 14, 14);
+}
+.bd-pillars-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 34px;
+}
+.bd-pillar {
+  width: 302px;
+  height: 230px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 22px;
+}
+.bd-pillar-card-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+}
+.bd-pillar-card-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+}
