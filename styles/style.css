@@ -26,6 +26,12 @@ body {
   border-radius: 8px;
   padding: 15px 30px;
 }
+.nav-btn:hover {
+  background: rgb(200, 8, 8);
+  border: 1px solid rgb(200, 8, 8);
+  color: rgb(19, 0, 0);
+  transition: ease-in 1s;
+}
 /* Navbar section styles ended */
 
 /* Banner Section styles Started */
@@ -60,6 +66,13 @@ body {
   border: none;
   padding: 17px 34px;
 }
+
+.banner-btn:hover {
+  background: rgb(200, 8, 8);
+  border: 1px solid rgb(200, 8, 8);
+  color: white;
+  transition: ease-in 1s;
+}
 /* Banner section styles ended */
 
 /*Pillars of bangladesh section styles started  */
@@ -87,6 +100,10 @@ body {
   border-radius: 16px;
   background: rgb(255, 255, 255);
   padding: 22px;
+}
+.bd-pillar:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.364);
+  transition: ease-in-out 0.5s;
 }
 .bd-pillar-card-title {
   color: rgba(14, 14, 14, 0.8);
@@ -127,6 +144,10 @@ body {
   height: 250px;
   padding: 32px;
 }
+.vision-card:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.364);
+  transition: ease-in-out 0.5s;
+}
 .vision-card-title {
   color: rgba(14, 14, 14, 0.8);
   font-size: 20px;
@@ -154,6 +175,15 @@ body {
   border: none;
   padding: 11px 20px;
 }
+.vision-btn:hover {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.364);
+}
+
 .vision-btn1 {
   background: rgb(84, 144, 245);
   margin-top: 24px;
@@ -278,6 +308,11 @@ body {
   background: rgb(0, 106, 80);
   border: none;
 }
+.news-sec1-btn:hover {
+  background: rgb(200, 8, 8);
+  border: 1px solid rgb(200, 8, 8);
+  color: white;
+}
 /* Recent News section style ended */
 /* Donate today style started */
 
@@ -350,6 +385,12 @@ body {
   background: rgb(0, 106, 80);
   border: none;
 }
+.donate-now-btn:hover {
+  background: rgb(9, 225, 13);
+  border: 1px solid rgb(9, 225, 13);
+  color: rgb(0, 0, 0);
+  transition: ease-in 0.3s;
+}
 
 /* Donate today section ended */
 
@@ -401,6 +442,14 @@ body {
   border-radius: 0px 8px 8px 0px;
   border: none;
   background: rgb(0, 106, 80);
+}
+
+.subscribe-btn:hover {
+  background: rgb(200, 8, 8);
+  border: 1px solid rgb(200, 8, 8);
+  color: rgb(0, 0, 0);
+  /* font-weight: 600; */
+  transition: ease-in 1s;
 }
 
 .newsletter-input-sec {
