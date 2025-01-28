@@ -166,3 +166,35 @@ body {
   background: rgb(255, 194, 57);
   margin-top: 24px;
 }
+/* Visions section style Ended */
+
+/* Quote section style started */
+.quote-section {
+  margin: 0 auto;
+  max-width: 1280px;
+  background-image: url(../assets/quote-bg.png);
+  background-position: top 23px left 49px;
+  background-repeat: no-repeat;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 32px;
+}
+.quote-sec-description {
+  font-size: 16px;
+  line-height: 24px;
+}
+.quote-sec-content {
+  margin: 48px;
+}
+.quote-sec-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+}
+.quote-sec-subtitle {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: -20px;
+}
